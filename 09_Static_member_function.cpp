@@ -2,6 +2,12 @@
 there is no need to create an object to access this data member.
 is initialized outside the class using a scope resolution operator.
 
+
+Static functions dont need objects.
+does not use this keyword
+can only access static data members.
+
+
 */
 
 #include <iostream>
@@ -19,6 +25,11 @@ public:
     {
         cout << "Default constructor called." << endl;
         time--;
+    }
+
+    static void printTime()
+    {
+        cout << "Time is: " << time << endl;
     }
 
     void setHealth(int n)
@@ -50,10 +61,12 @@ int main()
     cout << hero::time << endl;
 
     hero a;
-    cout << a.time <<endl;
+    cout << a.time << endl;
 
     hero b;
-    cout << b.time <<endl;
+    cout << b.time << endl;
+
+    b.printTime();
 
     return 0;
 }
