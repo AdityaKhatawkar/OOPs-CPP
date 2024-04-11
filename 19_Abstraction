@@ -1,0 +1,9 @@
+It is used to hide the inplementation from the user.
+Only essential things are shown.
+Can be achieved using access specifiers public, private and protected.
+
+uses:
+only the developer can make changes and not the user.
+security
+increases reusability
+avoids duplication
