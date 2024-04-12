@@ -1,4 +1,7 @@
 /* 
+Friend functions are those functions that have the access to private members of the class in which they are declared.
+
+
 Syntax: 
 friend <function definition>;
 
