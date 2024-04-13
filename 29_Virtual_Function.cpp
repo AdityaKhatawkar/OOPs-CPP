@@ -1,4 +1,7 @@
 /*
+
+Also called runtime polymorphism.
+
 Rules:
 
     They cannot be static
