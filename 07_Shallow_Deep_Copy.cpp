@@ -14,7 +14,7 @@ private:
 
 public:
     char level;
-    char *name;
+    char *name = new char;
 
     hero()
     {
